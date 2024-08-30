@@ -1,0 +1,16 @@
+.search {
+  background-image: url("https://www.ajantashoes.com/pub/media/Mens_Shoes_Collection_Banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  .search {
+    height: 25vh;
+    width: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.5), transparent), 
+    url('https://www.ajantashoes.com/pub/media/Mens_Shoes_Collection_Banner.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}}
